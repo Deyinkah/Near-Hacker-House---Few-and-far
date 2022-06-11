@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+header {
+  box-shadow: 0px 2px 3px -3px rgba(0,0,0,1);
+  padding: 19px 17px 17px;
+}
+
+.header--img {
+  margin-right: auto;
+  width: 140px;
+}
+
+.header--btn {
+  padding: 10px 12px;
+  right: 17px;
+  top: 13px;
+  position: absolute;
+  color: white;
+  background: #9A9DFE;
+  border: none;
+  border-radius: 8px;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+main {
+  text-align: center;
+  padding: 35px 30px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.main--content {
+  border: 2.2px solid #9A9DFC;
+  padding: 0px 17px 20px 17px;
+  border-radius: 10px;
+  /*border-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #9A9DFC), color-stop(50%, #9A9DFC), color-stop(50%, #B2CE67), color-stop(100%, #B2CE67)) 1 stretch repeat;*/
+}
+
+.main--content--text {
+  line-height: 27px;
+  font-weight: 420;
+  color: #4f4f4f;
+}
+
+form {
+  display: grid;
+}
+
+.main--content--input {
+  margin: 15px 0px;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #DDDDDD;
+  color: #979797;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.main--content--btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  background: #9A9DFE;
+  font-weight: 550;
+}
+
+.footer--heading {
+  color: #4f4f4f;
+}
+
+.fa-discord {
+  font-size: 21px;
+  background: #9A9DFE;
+  border-radius: 50%;
+  color: white;
+  padding: 8px 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-twitter {
+  font-size: 21px;
+  background: #9A9DFE;
+  border-radius: 50%;
+  color: white;
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-instagram {
+  font-size: 22px;
+  background: #9A9DFE;
+  border-radius: 50%;
+  color: white;
+  padding: 8px 9px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-size: 16px;
+  margin-bottom: -10px;
+}
